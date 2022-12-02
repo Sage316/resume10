@@ -1,0 +1,270 @@
+
+/* HTML TAGS */
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  color: black;
+  margin: 0%;  
+}
+
+header {
+  display: flex;
+
+  align-items: center;
+  background-color: #808080;
+
+}
+@media only screen and (min-width: 600px) {
+  header {   
+    display: flex;
+    align-items: center;
+    
+  }
+}
+@media only screen and (min-width: 992px) {
+  header { 
+    background-color: #808080;
+  text-align: center;
+  padding: 20px;
+  }
+} 
+
+footer {
+  background-color: #808080;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 40px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px 40px;
+}
+
+img {
+  width: 300px; 
+  height: 300px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 3px solid #fff;
+}
+
+aside {
+  display: flex;
+  background-color: #d3d3d3;
+  flex-direction: column;
+  width: auto;
+  padding: 20px 50px;
+
+}
+@media only screen and (min-width: 600px) {
+  aside { 
+    display: flex;
+    background-color: #d3d3d3;
+    flex-direction: column;
+    width: auto;
+    padding: 20px 50px;
+
+  }
+} 
+
+@media only screen and (min-width: 992px) {
+  aside { 
+    background-color: #d3d3d3;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+  padding: 20px 50px;
+  }
+} 
+
+p {
+  line-height: 18px;
+}
+
+
+/* ID's */
+
+#myHeader {
+  display: flex;
+
+  flex-direction: column; 
+  align-items: center;
+  text-align: left;
+  width: -webkit-fill-available;
+}
+@media only screen and (min-width: 600px) {
+  #myHeader { 
+    display: flex;
+    width: -webkit-fill-available;
+    flex-direction: column; 
+    align-items: center;
+    text-align: left;
+  }
+} 
+@media only screen and (min-width: 992px) {
+  #myHeader { 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+} 
+
+#myPicture {
+  width: auto;
+}
+@media only screen and (min-width: 600px) {
+  #myPicture {   
+    width: auto;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #myPicture { 
+    width: 40%;
+  }
+} 
+
+#intro {
+  width: auto;
+    align-items: center;
+    text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  #intro {   
+    width: auto;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #intro { 
+    display: flex;
+  flex-direction: column;
+  width: 20%;
+  justify-content: center;
+  }
+} 
+
+#placeHolder {
+  width: 40%;
+}
+
+
+#title {
+  font-size: 25px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+#hire {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 100px;
+  cursor: pointer;
+}
+
+#content {
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  #content { 
+    width: 100%;
+  }
+} 
+@media only screen and (min-width: 992px) {
+  #content { 
+    width: 40%;
+  }
+} 
+#about {
+  width: 100%;
+  margin-left: 0px;
+  padding: 0px;
+}
+@media only screen and (min-width: 600px) {
+  #about { 
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px;
+  }
+} 
+@media only screen and (min-width: 992px) {
+  #about { 
+    width: 60%;
+    margin-left: 120px;
+    padding: 0px 100px;
+  }
+} 
+
+ul#menuItems {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul#menuItems li {
+line-height: 30px;
+}
+
+#softSkills {
+  width: 30%;
+}
+#hardSkills {
+width: 70%;
+}
+
+.section-titles {
+  font-size: 20px;
+}
+
+/* CLASSES */
+
+h2.example {
+  color: #fff;
+}
+
+.menuLinks {
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 20%;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-google {
+  background-color: red;
+  color: #fff;
+}
+
+.skillsContainer {
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.greenText {
+  color: #4CAF50;
+}
