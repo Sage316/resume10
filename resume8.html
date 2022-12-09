@@ -8,9 +8,13 @@
     <title>Digital resume</title>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
 </head>
 
-<body>
+<body class="m-0">
+
 
     <!-- Header -->
     <header>
@@ -25,44 +29,52 @@
                 <h2 id="title">
                     Software Developer
                 </h2>
-                <a href="#hireMe" id="hire">Hire Me</a>
-                
+                <a href="#hireMe" id="hire" class="m-5">Hire Me</a>
+
             </div>
             <div id="placeHolder"></div>
         </div>
     </header>
 
     <!-- About -->
-    <aside>
-        <div id="content">
-            <h2 class="section-titles">
-                Menu
-            </h2>
-            <ul id="menuItems">
-                <li> <a href="#education" class="menuLinks">Education</a></li>
-                <li> <a href="#experience" class="menuLinks">Experience</a></li>
-                <li> <a href="#skills" class="menuLinks">Skills</a></li>
+    <aside class="px-5 py-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="section-titles">
+                        Menu
+                    </h2>
+                    <ul id="menuItems">
+                        <li> <a href="#education" class="menuLinks">Education</a></li>
+                        <li> <a href="#experience" class="menuLinks">Experience</a></li>
+                        <li> <a href="#skills" class="menuLinks">Skills</a></li>
 
-            </ul>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-titles">
+                        About Me
+                    </h2>
+                    <p>
+                        I am a very creative person and would love to be able to learn more about the programmes used to
+                        put
+                        my ideas into theory and work my way to completing the course and working my way through
+                        university
+                        to become
+                        a professional web designer, as I feel this is the perfect career for me. I aim to design,
+                        create and maintain websites, using the latest industry software to provide a superior user
+                        experience that consistently delivers the customer/readership base that the website is seeking
+                        to
+                        attract.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div id="about">
-            <h2 class="section-titles">
-                About Me
-            </h2>
-            <p>
-                I am a very creative person and would love to be able to learn more about the programmes used to put
-                my ideas into theory and work my way to completing the course and working my way through university
-                to become
-                a professional web designer, as I feel this is the perfect career for me. I aim to design,
-                create and maintain websites, using the latest industry software to provide a superior user
-                experience that consistently delivers the customer/readership base that the website is seeking to
-                attract.
-            </p>
-        </div>
+
     </aside>
 
     <!-- Main Content -->
-    <section>
+    <section class="px-5 py-3">
         <article>
             <h2 id="education" class="section-titles">
                 Education
@@ -154,31 +166,39 @@
                 <h2 id="skills" class="section-titles">
                     Skills
                 </h2>
-                
-                <div class="skillsContainer">
-                    <div id="softSkills">
-                        <h4>
-                            <span class="greenText">Soft Skills</span>
-                        </h4>
-                        <ul>
-                            <li>Problem-solving skills</li>
-                            <li>Patience</li>
-                            <li>Positive attitude</li>
-                            <li>Time management skills</li>
-                            <li>Listening skills</li>
-                        </ul>
-                    </div>
 
-                    <div id="hardSkills">
-                        <h4>
-                            <span class="greenText">Hard Skills</span>
-                        </h4>
-                        <ul>
-                            <li>Administrative</li>
-                            <li>Data Analytics</li>
-                            <li>Computer (Microsoft and Google Digital Skills)</li>
-                            <li>HTML and CSS</li>
-                        </ul>
+                <!-- main -->
+                <div id="" class="container-fluid">
+                    <div class="row">
+
+                        <!-- 1st -->
+                        <div class="col-md-6">
+                            <h4>
+                                <span class="greenText">Soft Skills</span>
+                            </h4>
+                            <ul>
+                                <li>Problem-solving skills</li>
+                                <li>Patience</li>
+                                <li>Positive attitude</li>
+                                <li>Time management skills</li>
+                                <li>Listening skills</li>
+                            </ul>
+                        </div>
+                        <!-- 2nd -->
+
+                        <div class="col-md-6">
+                            <div>
+                                <h4>
+                                    <span class="greenText">Hard Skills</span>
+                                </h4>
+                                <ul>
+                                    <li>Administrative</li>
+                                    <li>Data Analytics</li>
+                                    <li>Computer (Microsoft and Google Digital Skills)</li>
+                                    <li>HTML and CSS</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -186,12 +206,17 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="px-5">
         <h2 class="example" id="hireMe">
             Contact Details
         </h2>
         <a href="https://www.linkedin.com/in/sage-smith-581436150/" target="_blank" class="fa fa-linkedin"></a>
-        <a href="mailto:sagesmith316@gmail.com" target="_blank" class="fa fa-google"></a>
+        <a href="mailto:sagesmith316@gmail.com" target="_blank" class="fa fa-google m-2"></a>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
